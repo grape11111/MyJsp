@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style type="text/css">
+			.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+			
+	.sidemenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidemenu li a {
+    margin-bottom: 4px;
+    display: block;
+    padding: 15px;
+    background-color: #eee;
+    text-decoration: none;
+    color: #666;
+}
+.sidemenu li a:hover {
+    background-color: #555;
+    color: white;
+}
+.sidemenu li a.active {
+    background-color: #008CBA;
+    color: white;
+}
+		</style>
+	</head>
+	<body>
+
+	<div class="clearfix">
+    <div class="column sidemenu">
+
+		<ul class="nav nav-pills nav-stacked">
+			<li><a href="Contain.jsp?pages=1" target="contain" class="active">首页</a></li>
+			<li><a href="Jsp/Mangers/Message_m.jsp" target="contain">个人信息</a></li>
+			<li><a href="Jsp/Mangers/Users_mangerment.jsp" target="contain">用户管理</a></li>
+			<li><a href="Jsp/Mangers/Book_mangerment.jsp" target="contain">图书管理</a></li>
+			<li><a href="Jsp/Mangers/Borrow_mangerment.jsp" target="contain" >借阅管理</a></li>
+			<li><a href="Jsp/Mangers/Back_mangerment.jsp" target="contain" >逾期罚款处理</a></li>
+			<li><a href="Exit.jsp" target="_parent" >退出系统</a></li>
+		</ul>
+
+</div>
+</div>
+
+
+	</body>
+</html>
